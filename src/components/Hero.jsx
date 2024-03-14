@@ -1,7 +1,6 @@
 import { motion } from "framer-motion";
-import { Link } from "react-router-dom";
 import { styles } from "../styles";
-import { devName, navLinks } from "../constants";
+import { devName } from "../constants";
 import { bwmap, worldmap, huzaifa } from "../assets";
 
 const Hero = () => {
@@ -40,7 +39,7 @@ const Hero = () => {
             <h1
               className={`${styles.heroHeadText} text-eerieBlack font-poppins uppercase`}
             >
-              Hi, I'm{" "}
+              Hi, I&apos;m{" "}
               <span
                 className="sm:text-battleGray sm:text-[90px] 
                 text-eerieBlack text-[50px] font-mova
@@ -70,7 +69,7 @@ const Hero = () => {
           <a href="#about">
             <div
               className="w-[35px] h-[64px] rounded-3xl border-4 
-            border-french border-dim flex
+            border-frenc flex
             justify-center items-start p-2"
             >
               <motion.div
